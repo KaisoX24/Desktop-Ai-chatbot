@@ -9,7 +9,6 @@ A sleek and responsive AI chatbot desktop app built using `CustomTkinter`, power
 - 🖥️ Beautiful dark-themed desktop UI using `customtkinter`
 - 🧠 Context-aware conversations powered by Groq API + LLaMA 3.1
 - 🔄 Streaming AI responses with typing effect
-- 💬 Shift+Enter for multi-line messages
 - 🔐 API key loaded securely via `.env`
 - 📁 Resource-safe asset loading with `PyInstaller` compatibility
 
@@ -27,11 +26,14 @@ A sleek and responsive AI chatbot desktop app built using `CustomTkinter`, power
 
 ## ⚙️ Tech Stack
 
-- Python 3.10+
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
-- [Groq Python SDK](https://pypi.org/project/groq/)
-- [Pillow (PIL)](https://python-pillow.org/)
-- [python-dotenv](https://pypi.org/project/python-dotenv/)
+| Technology         | Purpose                                               |
+|--------------------|-------------------------------------------------------|
+| Python             | Core programming language                             |
+| CustomTkinter      | Desktop UI framework with modern widgets              |
+| Groq API (LLaMA 3) | AI model for chatbot responses                        |
+| Pillow (PIL)       | Image handling                                        |
+| dotenv             | Securely manage API keys                              |
+| threading / sys / os | System utilities and multithreading support       |
 
 ---
 
