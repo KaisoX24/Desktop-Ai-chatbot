@@ -66,7 +66,7 @@ A sleek, dark‑themed desktop chatbot built with 🐍 Python, CustomTkinter GUI
    ```
 
 ## 🖼️ Screenshots
-![Chat Window](assets/chat_window.png)
+![Chat Window](assets/screenshot.png)
 ![App Icon](assets/app_icon.png)
 
 ## Author
