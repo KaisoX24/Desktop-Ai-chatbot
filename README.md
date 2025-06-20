@@ -58,3 +58,22 @@ cd llama-chatbot
  ```bash
 pip install -r requirements.txt
  ```
+### 3. **Setup Environment Variables**
+- Create a .env file in the root directory and add your Groq API key:
+  ```bash
+  GROQ_API_KEY=your_actual_key_here
+  ```
+### 4. **Run the App**
+```bash
+python app.py
+```
+---
+
+## 🧠 CREATOR
+
+Developed by Pramit Acharjya
+
+---
+## 📃 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and share!
