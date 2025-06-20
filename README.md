@@ -49,8 +49,8 @@ cd llama-chatbot
 
 ### 2. **Install Requirements**
 
--Create a virtual environment (optional but recommended):
+- Create a virtual environment (optional but recommended):
  ```bash
-      python -m venv venv
-      venv\Scripts\activate # Mac: source venv/bin/activate
+ python -m venv venv
+ venv\Scripts\activate  # Mac: source venv/bin/activate
  ```
