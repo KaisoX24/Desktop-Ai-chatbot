@@ -67,7 +67,7 @@ A sleek, dark‑themed desktop chatbot built with 🐍 Python, CustomTkinter GUI
 
 ## 🖼️ Screenshots
 ![Chat Window](assets/screenshot.png)
-![App Icon](assets/app_icon.png)
+![App Icon](assets/llama.ico)
 
 ## Author
 **Pramit Acharjya** – [GitHub](https://github.com/KaisoX24)
