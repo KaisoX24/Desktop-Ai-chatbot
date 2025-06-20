@@ -1,79 +1,76 @@
-# 🦙 Llama AI Chatbot (Desktop App)
 
-A sleek and responsive AI chatbot desktop app built using `CustomTkinter`, powered by [Groq](https://groq.com) and the **LLaMA 3.1** model. Llama is a context-aware assistant that remembers previous conversations and responds intelligently.
+# Desktop‑AI‑Chatbot
 
----
+A sleek, dark‑themed desktop chatbot built with 🐍 Python, CustomTkinter GUI, and the Groq LLaMA 3.1 API.
 
 ## ✨ Features
+- Context‑aware conversation memory
+- Streaming AI response with typing effect
+- Responsive UI with multithreading
+- Secure Groq API key via `.env`
+- PyInstaller compatible for standalone builds
 
-- 🖥️ Beautiful dark-themed desktop UI using `customtkinter`
-- 🧠 Context-aware conversations powered by Groq API + LLaMA 3.1
-- 🔄 Streaming AI responses with typing effect
-- 🔐 API key loaded securely via `.env`
-- 📁 Resource-safe asset loading with `PyInstaller` compatibility
-
----
-
-## 📸 Screenshots
-
-> Screenshots are stored in the `assets/` folder.
-
-| Chat Window | Icon |
-|-------------|------|
-| ![Chat UI](assets/screenshot.png) | ![App Icon](assets/Llama.ico) |
-
----
+## 📂 Project Structure
+```
+├── assets/           # UI icons and screenshots  
+├── app.py            # Main application  
+├── requirements.txt  # Dependencies  
+├── .gitignore        
+├── LICENSE           
+└── README.md         
+```
 
 ## ⚙️ Tech Stack
+- **Python** – core logic  
+- **CustomTkinter** – modern GUI components  
+- **Groq API** – LLaMA 3.1 model responses  
+- **Pillow** – image handling  
+- **dotenv** – secure environment variables  
+- **threading / os / sys** – backend utilities  
 
-| Technology         | Purpose                                               |
-|--------------------|-------------------------------------------------------|
-| Python             | Core programming language                             |
-| CustomTkinter      | Desktop UI framework with modern widgets              |
-| Groq API (LLaMA 3) | AI model for chatbot responses                        |
-| Pillow (PIL)       | Image handling                                        |
-| dotenv             | Securely manage API keys                              |
-| threading / sys / os | System utilities and multithreading support       |
+## 🧩 Installation
 
----
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/KaisoX24/Desktop-Ai-chatbot.git
+   cd Desktop-Ai-chatbot
+   ```
 
-## 🚀 Getting Started
+2. Create & activate a virtual environment:
+   ```bash
+   python -m venv venv
+   # Windows:
+   venv\Scripts\activate
+   # macOS/Linux:
+   source venv/bin/activate
+   ```
 
-### 1. Clone the Repo
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-git clone https://github.com/your-username/llama-chatbot.git
-cd llama-chatbot
-```
----
+4. Add your Groq API key in a `.env` file:
+   ```
+   GROQ_API_KEY=your_api_key_here
+   ```
 
-### 2. **Install Requirements**
+5. Run the app:
+   ```bash
+   python app.py
+   ```
 
-- Create a virtual environment (optional but recommended):
- ```bash
- python -m venv venv
- venv\Scripts\activate  # Mac: source venv/bin/activate
- ```
-- Install Dependencies:
- ```bash
-pip install -r requirements.txt
- ```
-### 3. **Setup Environment Variables**
-- Create a .env file in the root directory and add your Groq API key:
-  ```bash
-  GROQ_API_KEY=your_actual_key_here
-  ```
-### 4. **Run the App**
-```bash
-python app.py
-```
----
+6. (Optional) Build a standalone executable:
+   ```bash
+   pyinstaller --onefile --windowed app.py
+   ```
 
-## 🧠 CREATOR
+## 🖼️ Screenshots
+![Chat Window](assets/chat_window.png)
+![App Icon](assets/app_icon.png)
 
-Developed by Pramit Acharjya
+## Author
+**Pramit Acharjya** – [GitHub](https://github.com/KaisoX24)
 
----
-## 📃 License
-
-This project is licensed under the MIT License. Feel free to use, modify, and share!
+## License
+This project is licensed under the MIT License.
