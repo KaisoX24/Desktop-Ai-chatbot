@@ -44,3 +44,6 @@ A sleek and responsive AI chatbot desktop app built using `CustomTkinter`, power
 ```bash
 git clone https://github.com/your-username/llama-chatbot.git
 cd llama-chatbot
+
+---
+
