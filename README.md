@@ -54,3 +54,7 @@ cd llama-chatbot
  python -m venv venv
  venv\Scripts\activate  # Mac: source venv/bin/activate
  ```
+- Install Dependencies:
+ ```bash
+pip install -r requirements.txt
+ ```
