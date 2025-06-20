@@ -21,12 +21,14 @@ A sleek, dark‑themed desktop chatbot built with 🐍 Python, CustomTkinter GUI
 ```
 
 ## ⚙️ Tech Stack
-- **Python** – core logic  
-- **CustomTkinter** – modern GUI components  
-- **Groq API** – LLaMA 3.1 model responses  
-- **Pillow** – image handling  
-- **dotenv** – secure environment variables  
-- **threading / os / sys** – backend utilities  
+| Technology         | Purpose                                               |
+|--------------------|-------------------------------------------------------|
+| Python             | Core programming language                             |
+| CustomTkinter      | Desktop UI framework with modern widgets              |
+| Groq API (LLaMA 3) | AI model for chatbot responses                        |
+| Pillow (PIL)       | Image handling                                        |
+| dotenv             | Securely manage API keys                              |
+| threading / sys / os | System utilities and multithreading support       |
 
 ## 🧩 Installation
 
